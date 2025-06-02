@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bidemy Designs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <<style>
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(145deg, #1b1b2f, #2a2a4a);
+    color: #fff;
+  }
+
+  header {
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #36d1dc, #E0B0FF);Warm appealing gradient */
+    padding:1.5rem;
+    border-radius: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    animation: floatInTop 1.5s ease-out;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1em;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4em 2em;
+    background: url('https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80') no-repeat center center/cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .hero h1 {
+    font-size: 2.8em;
+    margin: 0.2em 0;
+  }
+
+  .hero p {
+    max-width: 500px;
+    font-size: 1.1em;
+  }
+
+  .btn {
+    margin-top: 1em;
+    padding: 0.8em 1.5em;
+    background: #00d084;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  section {
+    padding: 3em 2em;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2em;
+    background: linear-gradient(135deg, #36d1dc, #e0b0ff); /* Cool appealing gradient */
+    padding:1.5rem;
+    border-radius: 20px;
+    font-size: 0.9em;
+    color: #f0f8ff;
+    animation: floatInBottom 1s ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+  }
+
+  footer a {
+    color: #f0f8ff;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  /* Animations */
+  @keyframes floatInTop {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes floatInBottom {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+</style>
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Bidemy Designs</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hi, I'm Bidemy</h1>
+    <p>I create stunnig graphic designs for businesses and individuals.
+    I also offer professional grade editing services. Let's bring your ideas to life!</p>
+    <a href="#contact"><button class="btn">Contact Me</button></a>
+  </section>
+
+  <section id="about" style="padding: 3em 2em;">
+    <h2>About Me</h2>
+    <p>I’m a passionate Graphic Designer and Content Editor who brings fresh creative content to life, tailored just for you.</p>
+  </section>
+
+  <section id="projects" style="padding: 3em 2em;">
+    <h2>Recent Work</h2>
+    <p> Business Flyers, Video/Clip Editing, Logo Designs and More!
+    </p>
+  </section>
+
+  <section id="contact" style="padding: 3em 2em;">
+    <h2>Get In Touch</h2>
+    <p>Contact me: 
+  <a href="tel:+2348039118821">+2348039118821</a> </p>
+  </p>Email Me
+  <a href="mailto:bidemy17@gmial.com">bidemy17@gmail.com</a>
+</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Bidemy Designs • Built on GitHub Pages
+  </footer>
+</body>
+</html>
